@@ -30,6 +30,9 @@ img, video {
 	color: #fff;
 	opacity: 0.6;
 }
+.header-container small:after {
+	content: '\a0';
+}
 
 /* grid */
 .grid-container {
@@ -39,9 +42,18 @@ img, video {
 	padding: 0 10px;
 	margin: 10px 0;
 }
-.grid-item img {
+.grid-item .image-border {
 	border: 1px solid #ccc;
 	padding: 4px;
+}
+.grid-item .image-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	overflow: hidden;
+}
+.grid-item img {
+	position: absolute;
+	height: 100%;
 }
 .grid-item a {
 	color: #333;
