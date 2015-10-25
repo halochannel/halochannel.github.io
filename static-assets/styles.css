@@ -12,7 +12,9 @@ img, video {
 
 /* header */
 .header-container {
+	background: #000;
 	margin-top: -20px;
+	min-height: 140px;
 	position: relative;
 }
 .header-container .shadow {
