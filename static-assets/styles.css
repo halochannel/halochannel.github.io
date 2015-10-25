@@ -14,8 +14,11 @@ img, video {
 .header-container {
 	background: #000;
 	margin-top: -20px;
-	min-height: 140px;
 	position: relative;
+}
+.header-container img {
+	min-height: 180px;
+	object-fit: cover;
 }
 .header-container .shadow {
 	position: absolute;
@@ -27,7 +30,7 @@ img, video {
 }
 .header-container .header-title {
 	position: absolute;
-	bottom: 20px;
+	bottom: 10px;
 	color: #fff;
 }
 .header-container small {
