@@ -30,9 +30,6 @@ img, video {
 	color: #fff;
 	opacity: 0.6;
 }
-.header-container small:after {
-	content: '\a0';
-}
 
 /* grid */
 .grid-container {
@@ -81,6 +78,9 @@ img, video {
 }
 .grid-item h3 small {
 	font-size: 85%;
+}
+.grid-item h3 small:after {
+	content: '\a0';
 }
 
 /* sticky footer */
