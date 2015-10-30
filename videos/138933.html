@@ -7,8 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         
-        <title>Halo 5: LIVE – Broadcast VOD – Halo Channel</title>
-        <link rel="canonical" href="http:&#x2F;&#x2F;halochannel.net&#x2F;shows&#x2F;138982" />
+        <title>Community Livestream Montage – Halo 5: Guardians – Halo Channel</title>
+        <link rel="canonical" href="http:&#x2F;&#x2F;halochannel.net&#x2F;videos&#x2F;138933" />
         
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -22,10 +22,11 @@
         
         <link rel="stylesheet" href="/static-assets/styles.css">
         
+            <script src="http://cdn.dashjs.org/latest/dash.all.js"></script>
         
     </head>
     
-    <body >
+    <body onLoad="Dash.createAll()">
     
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
@@ -53,71 +54,24 @@
         </nav>
         
         
-            <header class="main-header" style="background-image: url(https:&#x2F;&#x2F;content.halocdn.com&#x2F;media&#x2F;Default&#x2F;Halo_Channel_Final&#x2F;WebHero_1920x350&#x2F;h5_live_show_show_detail_1920x310-31f63a5c86fb448690fd8eab1d2e523b.jpg);">
-                <div class="container">
-                    <h1 class="header-title">
-                        Halo 5: LIVE
-                        <br/>
-                        <small>Broadcast VOD</small>
-                    </h1>
-                </div>
-            </header>
         
         <main>
             <div class="container">
                 
                 
-                        <h2>
-                            Halo 5: LIVE
-                        </h2>
-                        <p>
-                            At long last, Halo 5: Guardians is here. Relive the unprecedented seven-hour Halo 5: LIVE broadcast, featuring exciting original content from all corners of the Halo experience, culminating with Halo 5: Guardians’ North American launch at midnight. Originally aired live on Monday, October 26, 2015. 
-                        </p>
-                        <div class="grid-container row">
-                                <div class="grid-item col-sm-6 col-md-4 col-lg-3">
-                                    <a href="/videos&#x2F;138959" title="Part 1 – Halo 5: LIVE">
-                                        <div class="image-border">
-                                            <div class="image-wrapper">
-                                                <img src="https:&#x2F;&#x2F;content.halocdn.com&#x2F;media&#x2F;Default&#x2F;Halo_Channel_Final&#x2F;guide-thumbnail&#x2F;vod_bg_08_thumb-ab2d57d1f07b44a6a5088033e7cb28b4.jpg" alt="Part 1 – Halo 5: LIVE"/>
-                                            </div>
-                                        </div>
-                                        <h3 class="grid-item-title">
-                                            Part 1
-                                            <br/>
-                                            <small>Halo 5: LIVE</small>
-                                        </h3>
-                                    </a>
-                                </div>
-                                <div class="grid-item col-sm-6 col-md-4 col-lg-3">
-                                    <a href="/videos&#x2F;138972" title="Part 2 – Halo 5: LIVE">
-                                        <div class="image-border">
-                                            <div class="image-wrapper">
-                                                <img src="https:&#x2F;&#x2F;content.halocdn.com&#x2F;media&#x2F;Default&#x2F;Halo_Channel_Final&#x2F;guide-thumbnail&#x2F;vod_bg_07_thumb-f6c8f9ba6d374383b689026c4cbb4ad7.jpg" alt="Part 2 – Halo 5: LIVE"/>
-                                            </div>
-                                        </div>
-                                        <h3 class="grid-item-title">
-                                            Part 2
-                                            <br/>
-                                            <small>Halo 5: LIVE</small>
-                                        </h3>
-                                    </a>
-                                </div>
-                                <div class="grid-item col-sm-6 col-md-4 col-lg-3">
-                                    <a href="/videos&#x2F;138976" title="Part 3 – Halo 5: LIVE">
-                                        <div class="image-border">
-                                            <div class="image-wrapper">
-                                                <img src="https:&#x2F;&#x2F;content.halocdn.com&#x2F;media&#x2F;Default&#x2F;Halo_Channel_Final&#x2F;guide-thumbnail&#x2F;vod_bg_03_thumb-cf24cca0b80d4195b7875d217401e8a9.jpg" alt="Part 3 – Halo 5: LIVE"/>
-                                            </div>
-                                        </div>
-                                        <h3 class="grid-item-title">
-                                            Part 3
-                                            <br/>
-                                            <small>Halo 5: LIVE</small>
-                                        </h3>
-                                    </a>
-                                </div>
-                        </div>
                 
+                    <video class="dashjs-player" autoplay controls poster="https:&#x2F;&#x2F;content.halocdn.com&#x2F;media&#x2F;Default&#x2F;Halo_Channel_Final&#x2F;guide-thumbnail&#x2F;708x398-e082048519e247078887263ad0c89eff.jpg">
+                        <source src="http:&#x2F;&#x2F;contentmedia.halocdn.com&#x2F;6a307b3b-7919-4514-80d9-a2c0f5cbd243&#x2F;Xbox_Halo5_Multiplayer_Highlight_Reel_NoRating_720p29_CHANNEL.ism&#x2F;manifest(format=mpd-time-csf)" type="application/dash+xml"/>
+                        <source src="http:&#x2F;&#x2F;contentmedia.halocdn.com&#x2F;6a307b3b-7919-4514-80d9-a2c0f5cbd243&#x2F;Xbox_Halo5_Multiplayer_Highlight_Reel_NoRating_720p29_CHANNEL.ism&#x2F;manifest(format=m3u8-aapl)" type="application/x-mpegURL"/>
+                    </video>
+                    <h1>
+                        Community Livestream Montage
+                        <br/>
+                        <small>Halo 5: Guardians</small>
+                    </h1>
+                    <p>
+                        Experience the excitement of fans all over the world getting their first taste of Halo 5: Guardians. From community heroes to YouTube sensations, the reactions are raw and the passion is powerful!
+                    </p>
                 
             </div>
         </main>
