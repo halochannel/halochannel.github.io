@@ -22,11 +22,11 @@
         
         <link rel="stylesheet" href="/static-assets/styles.css">
         
-            <script src="http://cdn.dashjs.org/latest/dash.all.js"></script>
+            <script src="http://cdn.dashjs.org/latest/dash.all.min.js"></script>
         
     </head>
     
-    <body onLoad="Dash.createAll()">
+    <body>
     
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
@@ -59,9 +59,9 @@
             
                 <div class="video-background">
                     <div class="container">
-                        <video class="dashjs-player" autoplay controls poster="https:&#x2F;&#x2F;content.halocdn.com&#x2F;media&#x2F;Default&#x2F;Halo_Channel_Final&#x2F;guide-thumbnail&#x2F;nn_t-f7dc3bf59c2a4fb7b93ecfd948e0475f.jpg">
-                            <source src="http:&#x2F;&#x2F;contentmedia.halocdn.com&#x2F;6cb549c9-9720-4f18-a861-8c3c995f5dba&#x2F;Neverending_Nightmare_1080p2997_H264_EN_ST.ism&#x2F;manifest(format=mpd-time-csf)" type="application/dash+xml"/>
-                            <source src="http:&#x2F;&#x2F;contentmedia.halocdn.com&#x2F;6cb549c9-9720-4f18-a861-8c3c995f5dba&#x2F;Neverending_Nightmare_1080p2997_H264_EN_ST.ism&#x2F;manifest(format=m3u8-aapl)" type="application/x-mpegURL"/>
+                        <video data-dashjs-player autoplay controls poster="https:&#x2F;&#x2F;content.halocdn.com&#x2F;media&#x2F;Default&#x2F;Halo_Channel_Final&#x2F;guide-thumbnail&#x2F;nn_t-f7dc3bf59c2a4fb7b93ecfd948e0475f.jpg">
+                            <source src="http:&#x2F;&#x2F;contentmedia.halocdn.com&#x2F;6cb549c9-9720-4f18-a861-8c3c995f5dba&#x2F;Neverending_Nightmare_1080p2997_H264_EN_ST.ism&#x2F;manifest(format&#x3D;mpd-time-csf)" type="application/dash+xml"/>
+                            <source src="http:&#x2F;&#x2F;contentmedia.halocdn.com&#x2F;6cb549c9-9720-4f18-a861-8c3c995f5dba&#x2F;Neverending_Nightmare_1080p2997_H264_EN_ST.ism&#x2F;manifest(format&#x3D;m3u8-aapl)" type="application/x-mpegURL"/>
                         </video>
                     </div>
                 </div>
